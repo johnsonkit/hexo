@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Music Hexo
 subtitle:
 description:
 keywords:
-author: John Doe
+author: 
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
-root: /
+root: /hexo/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 
@@ -78,4 +78,7 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/johnsonkit/hexo.git
+  # branch: [branch]
+  # message: [message]
